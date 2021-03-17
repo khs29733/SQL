@@ -34,7 +34,7 @@ SELECT first_name,
 FROM employees
 WHERE salary > 3000 AND
         manager_id is not null AND -- =null로 체크 안됨
-        commission_pct is null;
+        commission_pct is null
 ORDER BY salary DESC;
 /*문제4.
 최고월급(max_salary)이 10000 이상인
